@@ -2,7 +2,7 @@ const path = require('path')
 const fs = require('fs')
 const spawn = require('child_process').spawn
 
-const lintStyles = ['standard', 'airbnb']
+const lintStyles = ['airbnb','standard']
 
 /**
  * Sorts dependencies in package.json alphabetically.
@@ -77,7 +77,7 @@ To get started:
       data
     )}${lintMsg(data)}npm run dev`
   )}
-  
+
 Documentation can be found at https://vuejs-templates.github.io/webpack
 `
   console.log(message)
